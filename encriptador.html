@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+    <html lang="es">
+       
+        <head>
+           
+            <meta charset = "UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="reset.css">
+            <title>Encriptador Platino</title>
+            <link rel="stylesheet" href="Estilos.css">
+
+        </head>
+
+        <body>
+
+            <header>
+                
+                <div class="logo-alura">
+                    <img src="imagenes/Logo.png" alt="logo de alura">
+                </div>
+                
+            </header>    
+            
+            <main>
+               
+                <section class="primera-seccion">
+
+                    <textarea class="texto-escribir" placeholder="Ingresa el texto aquí"></textarea> 
+                    
+                    <div class="seccion-abajo">
+                        <p class="advertencia">⚠ Solo letras minúsculas y sin acentos</p>
+
+                    <div class="botones">
+                    
+                        <input type="button" class="btn-encriptar" value="Encriptar">
+                        <button type="button" class="btn-desencriptar">Desencriptar</button>
+    
+                    </div>
+                    </div>
+                    
+                </section>
+               
+                <section class="segunda-seccion">
+
+                    <div class="cont-munheco">
+                        <img src="imagenes/Muñeco.png" alt="Muñeco de Alura" id="munheco">
+                    </div>
+                      
+                    <div class="cont-mensaje">
+
+                        <p class="mensaje1">Ningún mensaje fué encontrado</p>
+                        <p class="mensaje2">Ingrese el texto que desees encriptar o desencriptar</p>
+                                                
+                    </div>
+
+                    <div class="cont-resultado">
+
+                        <p class="mensaje-resultado"></p>
+                        <button id="btnCopiar" class="btn-copiar">Copiar</button>
+
+                    </div>
+                    
+                     
+                   
+                </section>
+
+            </main>
+            <script src="code.js"></script>
+        </body>
+        
+    </html>
+    
